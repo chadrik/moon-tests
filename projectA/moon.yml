@@ -1,0 +1,3 @@
+tasks:
+    editme:
+        command: 'echo "edit this to test if projectB:generate is triggered: x"'

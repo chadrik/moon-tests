@@ -3,3 +3,6 @@ tasks:
   echo:
     description: 'Print project name'
     command: 'echo $project'
+    deps:
+      - target: '~:generate'
+        optional: true  # run this if it exists in the project

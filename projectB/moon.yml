@@ -1,0 +1,9 @@
+tasks:
+  generate:
+    command: 'echo "running generate"'
+    inputs:
+      # FIXME: this is not invalidating the cache as expected:
+      - /projectA/moon.yml
+      # these work correctly:
+      - /projectA/edit-me.txt
+      - edit-me.txt
